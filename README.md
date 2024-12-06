@@ -1,34 +1,34 @@
-# vueTemplate
+# Vue Template
+This template contains Vite + Vue 3 + Tailwind.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Setup
+Get the repo
+```zsh
+git clone https://github.com/edamamev/_TemplateVue`
+```
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+Install packages
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Ensure your new `tailwind.config.js` has this in it's `content:[]`:
+```js
+"./src/**/*.{vue,js,ts,jsx,tsx,mdx}",
+```
 
+Compile and Hot-Reload for Development
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+Compile and Minify for Production
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
