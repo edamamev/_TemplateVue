@@ -1,5 +1,5 @@
 # Vue Template
-This template contains Vite + Vue 3 + Tailwind.
+This template contains Vite + Vue 3 + Tailwind + StorybookJS.
 
 ## Setup
 Get the repo
